@@ -1,7 +1,7 @@
 /**
  * Canon for Jenkins Javascript Overrides
  *
- * Leverages Jankins-included Prototype.js
+ * Leverages Jenkins-included Prototype.js
  *
  * @author Rackspace Web Team
  * @version 0.1
@@ -32,7 +32,7 @@ document.observe("dom:loaded", function () {
     // Set search field input type to text
     searchbox.type = 'text';
     // Clear style attribute for search field
-    searchbox.style = null;
+    searchbox.style.width = null;
     // Click logo, go home.
     $('rackspace-logo').on('click', function(){ location = '/'; });
 });

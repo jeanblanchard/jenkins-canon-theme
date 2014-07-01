@@ -8,8 +8,7 @@ body {
 }
 /* Styling for wrapper div added via javascript around project table */
 #main-table-wrap {
-    background-color: #EEEEEE;
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8BAMAAADI0sRBAAAAJ1BMVEXr6+vq6urs7Ozp6ent7e3u7u7o6Ojv7+/n5+fw8PDm5ubl5eXx8fETrQmTAAAFhElEQVR4Xi3VTXPjSB0G8H+3XhyYS7dkOZlZDuqW5JjiIqllO9wkuZ0MnGTLNjvsxW/Rbm1xsJ23KYpDHGcWFycyBVSF4hCWYmvZI8UH4MjHol27p9+x357n3yCWtM21tZDDeo3Hk2EA0BtMhrxQNAiwuZR2zbuLmf0ALTR45izN0eD1RwWrgYlEc+sCZWQW83PUaJTtHw9RY3apYFMY+VKIRhPqj9zmFr58T2mb4ctfbRU2AhLKEIud+EXuF6B7V7fdu7TjXXUXimkIeAzu+Q5RSpx72h5ingdDV+Er0BVAJnF+wp999EbtXjgWwelCOAOmiLoQWePL08AHqqeSug6gAvC5A+Ao5h2Yu9X6VaOsEozD8ejr8kOS1fWvy7NSkU0AJXSBiAGaAJPeoNXO4icuWh1FiiMHQpv3ehu0dx9RyfloHtVW8WQ094hiQYBhmg2Tz+Uv20PBcZXw5hyTKsm5Qoug3aj0ZXsNn858VNHgy0VUjzrBl98IxaUF3o57QbriS8Od7k0N34h4wDR8WipOHJAN6s7sB6phbSJ7um9iPqW6n04VdArIr65XUwZR3OrdmW/etqlF2Ju3u4Gi7oD7/RXIeSdD4/s8yR/cv4V5IluKGgfkUCeun9F2Ku1KRzX/t3/XG6i2uVAsNIjfVfC2uhSpyQZiyDt1i5sF78wyBUbwFldPUTga97014buUxcs+Ok6Z3VRsNIia4tcvjAqqXX0hd14wszu54wUTqhilsCqf+xUBTlve7s6XyDu7fyklsoQi1oFL7s5feXuIDS5do1dEzsnW6LU1BfkRWENqJBcMwMo59Zt2jTnrfzTtcKMIE7CodHpTChf2MoMPXf570Enc5a2VIsBAV8I+ywyZmSiuVKItqhLtAvo+2ODey26OjyhJgwx+ZxyF9V4ExtEOKcACcf+dEeszql9EMWAjzbTotW+kOlFkHrhDnsOoDdFgT+DPPsv+i9qFz+o/UUAT0Bf8qVXTqgFimkiQXM9O4iWSFw1FakLQkkm1dypU50xMy5PPXTzvlSdfbRSxDek/ZZYw9IwN8ukznhWeUUydWYFDxciCcMOblRFVx31iy0ZIoQARhpQYCjCB6c+1zKZ8MtwMJSJSzyxUEJlKBSBgD3e4yELKwCnGVL77lzFuuvLdX/+o0N7AA94fRgJNc7KR8ZHezV13e6T3rhVUh57Of0hlZvIzIo5S7GEiwkcFi+Dhid+vOgOwiEigfjhuMzUvGrOdYkEgNOk34FpAyv8Z8JquIqEeiK40WzHKwAM+WnpWFZfHXoVvyU85G352S/BHxb89EOk+/bldCr9lTkQzcfmH8hNIXNxSGAWADoBRCIgQ57s0S2paGC6zJF0duIbmk7CNfp93Kd5JfMgv3Wh2c1koxCk0NSCPzXjsM35M/ZRmlHStlNYPBCPQG0LLtVPZQPoAet/GXmMWjL6NeaTId/Cbm/Fj4VjccPhNdUvcPq1XjLj6QPHJBCx+Z+f1gFq4r3PNyf/jhRZ28p/lCvcWElv8wao/7TdWmXPnPC3i4C9wnhqaQv8KDBACzOPxDyNrW+g9q+VuHVA8MNgSWIKnj1HADCE3BCyfMwVSWDkgDaqPTxnQBdLGEZ0JLTEGdGaHBzR4nwm6BhOs9qtcGMTnroFuiJ9zReEDJWIdjDZ7CkvgYV+tQUrZR9ZQoZp5I/iAbSfCW2BvnK1DfYrqeB3CuYIjcBmIxuJ8Ly7qZJ85SMjepOkgO1Es7+H+ZawqRuShYvxQMfrat9KMRApvC6od3J6W9FALGdvc4qd2bnN2gOXAr0F3gs/4adfa0OSlN+wsatlLr+0prDEkf+J+AblQX9A1dDSEMxL7GiK+Iu3DKBTER4japi3p7DB9mYbdGT070P4/JfNcAmbpnUoAAAAASUVORK5CYII=");
+    background: #EEEEEE url("data:image/png;base64,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");
     color: #333333;
     padding: 0 40px 20px 40px;
 }
@@ -83,7 +82,7 @@ a.model-link.inside {
 /* Background and shadow for main panel */
 #main-panel {
     background: none repeat scroll 0 0 #FFFFFF;
-    box-shadow: 0 3px 8px 1px #C2C2C2;
+    box-shadow: 0 3px 4px 0 #C2C2C2;
     padding: 10px 20px;
 }
 /* Default styling for project table cells */
@@ -223,7 +222,7 @@ td.progress-bar-done {
 /* Width override for floating buttons on bottom of config screens */
 .bottom-sticker,
 #bottom-sticker {
-    width: 70%;
+    width: 75%;
 }
 
 .bigtable tr {
@@ -255,38 +254,26 @@ td.progress-bar-done {
 .yuimenu li a:hover {
     background: #eee !important;
 }
-/* Button styling */
-.yui-button button {
-    background-color: #C5C5C5;
-    background-image: linear-gradient(#FFFFFF, #C5C5C5) !important;
-    border-radius: 3px 3px 3px 3px;
-    color: #333333;
-    cursor: pointer;
-    display: inline-block;
-    font-family: "Helvetica Neue", sans-serif;
-    font-size: 13px;
-    line-height: 20px;
-    margin: 0;
-    padding: 2px 10px 1px;
-    text-align: center;
-    text-shadow: 0 1px 1px #FFFFFF;
-    vertical-align: middle;
-}
-/* Input field styling */
-input[type="text"],
-input[type="password"],
-input[type="number"],
-textarea {
-    background-color: #FFFFFF;
-    border: 1px solid #CCCCCC;
-    border-radius: 3px 3px 3px 3px;
-    height: 25px;
-    padding: 1px 4px 2px;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15) inset;
-}
+
 /* Shorten input fields */
 .setting-input {
-    width: 98%;
+    border-radius: 3px;
+}
+textarea.setting-input {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.CodeMirror-scroll {
+    border: 1px solid #CCC !important;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    padding: 2px;
+}
+.textarea-handle {
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    position: relative;
+    top: -2px;
 }
 /* Background for build history table on left side */
 #buildHistory.pane {
@@ -309,4 +296,11 @@ textarea {
 /* Remove background image from search field */
 #search-wrap #searchform #search-box {
     width: 33%;
+    height: 25px;
+    border-radius: 1px;
+    margin-right: -5px;
+}
+
+.repeated-chunk {
+    border-color: rgba(204, 204, 204, 0.2);
 }
