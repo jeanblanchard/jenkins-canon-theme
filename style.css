@@ -222,7 +222,10 @@ td.progress-bar-done {
 /* Width override for floating buttons on bottom of config screens */
 .bottom-sticker,
 #bottom-sticker {
-    width: 75%;
+    width: 70%;
+    width: calc( 0.8 * ( 100% - 80px ) - 42px );
+    max-width: calc( 100% - 382px );
+    min-width: 565px;
 }
 
 .bigtable tr {
